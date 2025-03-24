@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+* ::after,
+::before {
+  box-sizing: inherit;
+}
+
+.grid {
+  margin: 100px auto;
+  max-width: 800px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+
+.grid__item {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  outline: 1px solid black;
+}
+
+.grid__item--visited {
+  background-color: aquamarine;
+}
