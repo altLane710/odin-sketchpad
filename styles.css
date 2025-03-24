@@ -9,17 +9,31 @@
   box-sizing: inherit;
 }
 
+.controls {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: rgb(250, 235, 215);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(250, 235, 215, 0.5);
+}
+
 .grid {
-  margin: 100px auto;
-  max-width: 800px;
+  margin: 50px auto;
+  width: 800px;
   flex-wrap: wrap;
   display: flex;
-  width: 100%;
 }
 
 .grid__item {
-  width: 50px;
-  height: 50px;
   border: 1px solid black;
   outline: 1px solid black;
 }
