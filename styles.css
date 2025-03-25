@@ -38,6 +38,4 @@
   outline: 1px solid black;
 }
 
-.grid__item--visited {
-  background-color: aquamarine;
-}
+.grid__item--visited {}
